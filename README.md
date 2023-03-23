@@ -29,8 +29,8 @@ Your users should be able to:
 3. Open it in VS code and open the terminal.
 4. Run `$ npm install -D tailwindcss` command ( to create your tailwind dependencies ).
 5. Followed by `$ npx tailwindcss init` ( to create your tailwind.config.js file ).
-6. Now go to your `"tailwind.config.js"` file and within "[ ]" of the content write the path to your html inside double qoutes ( here it's in my root folder so the path is `"./*.html"` ).
-7. Then create a css file ( named `'input.css'` here ) in the root directory (or inside a folder).
-8. And now finally, run the command `$ npx tailwindcss -i ./input.css -o ./css/main.css --watch` ( here main.css is the file that will have all the css you will use in your project ).
+6. Now go to your `"tailwind.config.js"` file and within "[ ]" of the content write the path to your html inside double qoutes ( here it's in my root folder so the path is `"./*.{html,js}"` ).
+7. Then create a css file ( named `'input.css'` here ) in the src folder.
+8. And now finally, run the command `$ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch` ( here output.css is the file that will have all the css you will use in your project ).
 - #### Now you can finally start writing tailwindcss in your html!! :relieved:
 
